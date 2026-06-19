@@ -1,0 +1,2148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b09d40390a528cdb2c13d79fefc21093 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b09d40390a528cdb2c13d79fefc21093" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b09d40390a528cdb2c13d79fefc21093 = L.map(
+                "map_b09d40390a528cdb2c13d79fefc21093",
+                {
+                    center: [56.6, -2.9],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_23d14426175cb670cc9514d5b7f3787b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_23d14426175cb670cc9514d5b7f3787b.addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+            var circle_marker_82851c07ea4a2d0d6c2c85ac9ca8dfd8 = L.circleMarker(
+                [56.50955, -2.81794],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_9c5f136a20b9a33526ffa8d1d17517b9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_54cacd1a73bbe47325cd4d9b6144ab5e = $(`<div id="html_54cacd1a73bbe47325cd4d9b6144ab5e" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 05/08/2024</div>`)[0];
+                popup_9c5f136a20b9a33526ffa8d1d17517b9.setContent(html_54cacd1a73bbe47325cd4d9b6144ab5e);
+            
+        
+
+        circle_marker_82851c07ea4a2d0d6c2c85ac9ca8dfd8.bindPopup(popup_9c5f136a20b9a33526ffa8d1d17517b9)
+        ;
+
+        
+    
+    
+            var circle_marker_c900fe0cfeee4a13fcd7594c785387a4 = L.circleMarker(
+                [56.6837, -2.79523],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_5d0ecf75eb3cd66e9e4e168668a89362 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c8925851f38cefb55f3eeca414a14404 = $(`<div id="html_c8925851f38cefb55f3eeca414a14404" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 10/08/2024</div>`)[0];
+                popup_5d0ecf75eb3cd66e9e4e168668a89362.setContent(html_c8925851f38cefb55f3eeca414a14404);
+            
+        
+
+        circle_marker_c900fe0cfeee4a13fcd7594c785387a4.bindPopup(popup_5d0ecf75eb3cd66e9e4e168668a89362)
+        ;
+
+        
+    
+    
+            var circle_marker_dd30af588192d6be76d56a84e26e7271 = L.circleMarker(
+                [56.61737, -2.66382],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_95a427afd3bcf17f39b3120af014c462 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ec2fef3fcca0a6ab51c7d7755d1462e6 = $(`<div id="html_ec2fef3fcca0a6ab51c7d7755d1462e6" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 20/08/2024</div>`)[0];
+                popup_95a427afd3bcf17f39b3120af014c462.setContent(html_ec2fef3fcca0a6ab51c7d7755d1462e6);
+            
+        
+
+        circle_marker_dd30af588192d6be76d56a84e26e7271.bindPopup(popup_95a427afd3bcf17f39b3120af014c462)
+        ;
+
+        
+    
+    
+            var circle_marker_22cc9302a4ad432c63175a4b031a083c = L.circleMarker(
+                [56.56108, -2.61801],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_29cb2796ca4e44acc9f548d7734fd2f3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8464ee9d251a1587d83aad429093e357 = $(`<div id="html_8464ee9d251a1587d83aad429093e357" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 11/03/2024</div>`)[0];
+                popup_29cb2796ca4e44acc9f548d7734fd2f3.setContent(html_8464ee9d251a1587d83aad429093e357);
+            
+        
+
+        circle_marker_22cc9302a4ad432c63175a4b031a083c.bindPopup(popup_29cb2796ca4e44acc9f548d7734fd2f3)
+        ;
+
+        
+    
+    
+            var circle_marker_45c8db39eb4c8fd727f3321ff46fde48 = L.circleMarker(
+                [56.64938, -2.82224],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_b82c6c6098cf453a0aac7f4d6b052c39 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_aa9a73ec537ef6ffccbbacda8421dae3 = $(`<div id="html_aa9a73ec537ef6ffccbbacda8421dae3" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 23/08/2024</div>`)[0];
+                popup_b82c6c6098cf453a0aac7f4d6b052c39.setContent(html_aa9a73ec537ef6ffccbbacda8421dae3);
+            
+        
+
+        circle_marker_45c8db39eb4c8fd727f3321ff46fde48.bindPopup(popup_b82c6c6098cf453a0aac7f4d6b052c39)
+        ;
+
+        
+    
+    
+            var circle_marker_3071ba21dcf4e6ccff3b2bbc1dd2acc9 = L.circleMarker(
+                [56.6887, -2.84815],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_2ae5fb16ce5bdc1e1695e316add2122f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_26cc6521223b1f5e6b389783fbea7278 = $(`<div id="html_26cc6521223b1f5e6b389783fbea7278" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 18/09/2024</div>`)[0];
+                popup_2ae5fb16ce5bdc1e1695e316add2122f.setContent(html_26cc6521223b1f5e6b389783fbea7278);
+            
+        
+
+        circle_marker_3071ba21dcf4e6ccff3b2bbc1dd2acc9.bindPopup(popup_2ae5fb16ce5bdc1e1695e316add2122f)
+        ;
+
+        
+    
+    
+            var circle_marker_1c454411ab814b7f883f262f7ed0f386 = L.circleMarker(
+                [56.49409, -2.88063],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_280ea62db0d126b1e3fe677e4b01a7d5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_78310daedfd428a7d15f4973c98d99df = $(`<div id="html_78310daedfd428a7d15f4973c98d99df" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 31/12/2024</div>`)[0];
+                popup_280ea62db0d126b1e3fe677e4b01a7d5.setContent(html_78310daedfd428a7d15f4973c98d99df);
+            
+        
+
+        circle_marker_1c454411ab814b7f883f262f7ed0f386.bindPopup(popup_280ea62db0d126b1e3fe677e4b01a7d5)
+        ;
+
+        
+    
+    
+            var circle_marker_a79ad0e50e392404c83fe72902869bc7 = L.circleMarker(
+                [56.60962, -2.98504],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_ccf766d94bb2991fc5a60dc3dfb49826 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e36e8357b74060b3e9271b92f0ba8ef1 = $(`<div id="html_e36e8357b74060b3e9271b92f0ba8ef1" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 21/10/2024</div>`)[0];
+                popup_ccf766d94bb2991fc5a60dc3dfb49826.setContent(html_e36e8357b74060b3e9271b92f0ba8ef1);
+            
+        
+
+        circle_marker_a79ad0e50e392404c83fe72902869bc7.bindPopup(popup_ccf766d94bb2991fc5a60dc3dfb49826)
+        ;
+
+        
+    
+    
+            var circle_marker_e7f32afea0fc87a3efd26873831331dd = L.circleMarker(
+                [56.6874, -2.93726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_487f86f4dbb2b65d905308ffbe2000b8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_030c5dd6cddc53264605a4744e70e326 = $(`<div id="html_030c5dd6cddc53264605a4744e70e326" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 12/08/2024</div>`)[0];
+                popup_487f86f4dbb2b65d905308ffbe2000b8.setContent(html_030c5dd6cddc53264605a4744e70e326);
+            
+        
+
+        circle_marker_e7f32afea0fc87a3efd26873831331dd.bindPopup(popup_487f86f4dbb2b65d905308ffbe2000b8)
+        ;
+
+        
+    
+    
+            var circle_marker_d9d536a504c4e39886de88f14767052e = L.circleMarker(
+                [56.50395, -2.70241],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_4663d996fcf8c22a3f08aeb7f712c0d0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b1bf5fba3e66cd9b8df3c67e38b7ad73 = $(`<div id="html_b1bf5fba3e66cd9b8df3c67e38b7ad73" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 14/05/2024</div>`)[0];
+                popup_4663d996fcf8c22a3f08aeb7f712c0d0.setContent(html_b1bf5fba3e66cd9b8df3c67e38b7ad73);
+            
+        
+
+        circle_marker_d9d536a504c4e39886de88f14767052e.bindPopup(popup_4663d996fcf8c22a3f08aeb7f712c0d0)
+        ;
+
+        
+    
+    
+            var circle_marker_4bff94d08be80c2bd7b26fa6d619085c = L.circleMarker(
+                [56.4959, -3.06397],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_0d1f55e70765382b1b0fdd15c843e682 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_410c50ba7104eef548335376a36e7aef = $(`<div id="html_410c50ba7104eef548335376a36e7aef" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 18/05/2024</div>`)[0];
+                popup_0d1f55e70765382b1b0fdd15c843e682.setContent(html_410c50ba7104eef548335376a36e7aef);
+            
+        
+
+        circle_marker_4bff94d08be80c2bd7b26fa6d619085c.bindPopup(popup_0d1f55e70765382b1b0fdd15c843e682)
+        ;
+
+        
+    
+    
+            var circle_marker_b16a37e20b17dd2772233b0e4c7d23d4 = L.circleMarker(
+                [56.66858, -2.65312],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_f42fcbc9ba64198333fbbc5a8a98e535 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4d5bec6299f0ef3d8657a0d33c72b750 = $(`<div id="html_4d5bec6299f0ef3d8657a0d33c72b750" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 09/04/2024</div>`)[0];
+                popup_f42fcbc9ba64198333fbbc5a8a98e535.setContent(html_4d5bec6299f0ef3d8657a0d33c72b750);
+            
+        
+
+        circle_marker_b16a37e20b17dd2772233b0e4c7d23d4.bindPopup(popup_f42fcbc9ba64198333fbbc5a8a98e535)
+        ;
+
+        
+    
+    
+            var circle_marker_605a3a662e341ff27a768fcefc08fa96 = L.circleMarker(
+                [56.55823, -2.58457],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_0378cfd0efcc3bfe4cb6ef5fefb0c020 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5a87f0236393f96cccbd35f6bba6fdad = $(`<div id="html_5a87f0236393f96cccbd35f6bba6fdad" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 31/05/2024</div>`)[0];
+                popup_0378cfd0efcc3bfe4cb6ef5fefb0c020.setContent(html_5a87f0236393f96cccbd35f6bba6fdad);
+            
+        
+
+        circle_marker_605a3a662e341ff27a768fcefc08fa96.bindPopup(popup_0378cfd0efcc3bfe4cb6ef5fefb0c020)
+        ;
+
+        
+    
+    
+            var circle_marker_358134090938a2ae0d009a12fda12085 = L.circleMarker(
+                [56.65915, -3.04318],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_4bd7c22950d4a8e7b8416a6482f23b6c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_434635cc5b007a96184681c84bd40eb5 = $(`<div id="html_434635cc5b007a96184681c84bd40eb5" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 11/05/2024</div>`)[0];
+                popup_4bd7c22950d4a8e7b8416a6482f23b6c.setContent(html_434635cc5b007a96184681c84bd40eb5);
+            
+        
+
+        circle_marker_358134090938a2ae0d009a12fda12085.bindPopup(popup_4bd7c22950d4a8e7b8416a6482f23b6c)
+        ;
+
+        
+    
+    
+            var circle_marker_b804f0e765fdaadb07eeced99dc393b6 = L.circleMarker(
+                [56.60543, -3.04251],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_7f318364eda12a8d7ad1c9b46b67f1fe = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_53ec800a8837f959b90410065c9a8bfc = $(`<div id="html_53ec800a8837f959b90410065c9a8bfc" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 03/11/2024</div>`)[0];
+                popup_7f318364eda12a8d7ad1c9b46b67f1fe.setContent(html_53ec800a8837f959b90410065c9a8bfc);
+            
+        
+
+        circle_marker_b804f0e765fdaadb07eeced99dc393b6.bindPopup(popup_7f318364eda12a8d7ad1c9b46b67f1fe)
+        ;
+
+        
+    
+    
+            var circle_marker_45104672feb25d61a705ebd4f5581649 = L.circleMarker(
+                [56.71637, -2.46121],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_ef6722249b821ebc79b005e0d66f30eb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bce2450615d3dc093cb4f190e94f070e = $(`<div id="html_bce2450615d3dc093cb4f190e94f070e" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 01/06/2024</div>`)[0];
+                popup_ef6722249b821ebc79b005e0d66f30eb.setContent(html_bce2450615d3dc093cb4f190e94f070e);
+            
+        
+
+        circle_marker_45104672feb25d61a705ebd4f5581649.bindPopup(popup_ef6722249b821ebc79b005e0d66f30eb)
+        ;
+
+        
+    
+    
+            var circle_marker_c2c3ea3ce880b295f590f3f13fa62853 = L.circleMarker(
+                [56.52924, -2.94444],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_08d7af18f8d37ef1379793ffc910f7dd = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f062b72c9a61a9987560757f9f92330f = $(`<div id="html_f062b72c9a61a9987560757f9f92330f" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 08/05/2024</div>`)[0];
+                popup_08d7af18f8d37ef1379793ffc910f7dd.setContent(html_f062b72c9a61a9987560757f9f92330f);
+            
+        
+
+        circle_marker_c2c3ea3ce880b295f590f3f13fa62853.bindPopup(popup_08d7af18f8d37ef1379793ffc910f7dd)
+        ;
+
+        
+    
+    
+            var circle_marker_7f98bf2dccbd2fcb8aac98989a37af2e = L.circleMarker(
+                [56.49878, -3.07347],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_834f58489a20242be27506652cfa42e2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_44942d54fa397fb1dea85f9885c3238d = $(`<div id="html_44942d54fa397fb1dea85f9885c3238d" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 27/11/2024</div>`)[0];
+                popup_834f58489a20242be27506652cfa42e2.setContent(html_44942d54fa397fb1dea85f9885c3238d);
+            
+        
+
+        circle_marker_7f98bf2dccbd2fcb8aac98989a37af2e.bindPopup(popup_834f58489a20242be27506652cfa42e2)
+        ;
+
+        
+    
+    
+            var circle_marker_22fba7cb65199d94b3b03a24e84ba9f8 = L.circleMarker(
+                [56.60794, -3.00586],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_a4fd4c22c5ec4d0b61dfd69779fb65d1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_83df69355f0f9af0b18194161d42d490 = $(`<div id="html_83df69355f0f9af0b18194161d42d490" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 01/09/2024</div>`)[0];
+                popup_a4fd4c22c5ec4d0b61dfd69779fb65d1.setContent(html_83df69355f0f9af0b18194161d42d490);
+            
+        
+
+        circle_marker_22fba7cb65199d94b3b03a24e84ba9f8.bindPopup(popup_a4fd4c22c5ec4d0b61dfd69779fb65d1)
+        ;
+
+        
+    
+    
+            var circle_marker_06acb0fe8b4f2bb1713b2ce492ffa35c = L.circleMarker(
+                [56.55007, -2.61012],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_501b486fd1a0730f693972cecff016c5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7eeeac577f674556e09e2893cde91ea5 = $(`<div id="html_7eeeac577f674556e09e2893cde91ea5" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 01/09/2024</div>`)[0];
+                popup_501b486fd1a0730f693972cecff016c5.setContent(html_7eeeac577f674556e09e2893cde91ea5);
+            
+        
+
+        circle_marker_06acb0fe8b4f2bb1713b2ce492ffa35c.bindPopup(popup_501b486fd1a0730f693972cecff016c5)
+        ;
+
+        
+    
+    
+            var circle_marker_e8075461ed50f12511b31429430833b6 = L.circleMarker(
+                [56.53107, -2.9453],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_0524ae24abb0225dfb2805de13c76b8c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8787cd939f8373621bd5fc1581c1bce6 = $(`<div id="html_8787cd939f8373621bd5fc1581c1bce6" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 25/10/2024</div>`)[0];
+                popup_0524ae24abb0225dfb2805de13c76b8c.setContent(html_8787cd939f8373621bd5fc1581c1bce6);
+            
+        
+
+        circle_marker_e8075461ed50f12511b31429430833b6.bindPopup(popup_0524ae24abb0225dfb2805de13c76b8c)
+        ;
+
+        
+    
+    
+            var circle_marker_ab923fd7c57bfe08307c239f295785f5 = L.circleMarker(
+                [56.64024, -2.88204],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_cc9ab490edd67aa4cef7e214a61a1e15 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_32fc8f061fccf19aee98c745ec791b1c = $(`<div id="html_32fc8f061fccf19aee98c745ec791b1c" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 09/12/2024</div>`)[0];
+                popup_cc9ab490edd67aa4cef7e214a61a1e15.setContent(html_32fc8f061fccf19aee98c745ec791b1c);
+            
+        
+
+        circle_marker_ab923fd7c57bfe08307c239f295785f5.bindPopup(popup_cc9ab490edd67aa4cef7e214a61a1e15)
+        ;
+
+        
+    
+    
+            var circle_marker_06341d29b4e3e470a372c82664bd0ac7 = L.circleMarker(
+                [56.75576, -2.6468],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_a3c3c1e4993297a99c4a37383ef9ce77 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_7a90c3c4daba3ae7582a526ada36e9f7 = $(`<div id="html_7a90c3c4daba3ae7582a526ada36e9f7" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 16/02/2024</div>`)[0];
+                popup_a3c3c1e4993297a99c4a37383ef9ce77.setContent(html_7a90c3c4daba3ae7582a526ada36e9f7);
+            
+        
+
+        circle_marker_06341d29b4e3e470a372c82664bd0ac7.bindPopup(popup_a3c3c1e4993297a99c4a37383ef9ce77)
+        ;
+
+        
+    
+    
+            var circle_marker_c197a4d362d8ae2b45076b898056e288 = L.circleMarker(
+                [56.61102, -2.69429],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_7901ead9ecfcec56c743390ef0575ef6 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f55ac69e92fe149f85ad0985648fb23a = $(`<div id="html_f55ac69e92fe149f85ad0985648fb23a" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 29/01/2024</div>`)[0];
+                popup_7901ead9ecfcec56c743390ef0575ef6.setContent(html_f55ac69e92fe149f85ad0985648fb23a);
+            
+        
+
+        circle_marker_c197a4d362d8ae2b45076b898056e288.bindPopup(popup_7901ead9ecfcec56c743390ef0575ef6)
+        ;
+
+        
+    
+    
+            var circle_marker_3d913798e5b4cc3bc1610c9539d6ddfa = L.circleMarker(
+                [56.50421, -2.89337],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_eaae876ca45d35b35a15cd1a8d67686b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_450d6f5268d066b6a44b4d4aac5abdab = $(`<div id="html_450d6f5268d066b6a44b4d4aac5abdab" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 29/01/2024</div>`)[0];
+                popup_eaae876ca45d35b35a15cd1a8d67686b.setContent(html_450d6f5268d066b6a44b4d4aac5abdab);
+            
+        
+
+        circle_marker_3d913798e5b4cc3bc1610c9539d6ddfa.bindPopup(popup_eaae876ca45d35b35a15cd1a8d67686b)
+        ;
+
+        
+    
+    
+            var circle_marker_d70641203a9470ad00d86cc8aec76719 = L.circleMarker(
+                [56.78433, -2.57657],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_87d619d7aef7878b5d9c3e9b1be1839a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1d430064ccc453d0c10b37c39932d725 = $(`<div id="html_1d430064ccc453d0c10b37c39932d725" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 11/03/2024</div>`)[0];
+                popup_87d619d7aef7878b5d9c3e9b1be1839a.setContent(html_1d430064ccc453d0c10b37c39932d725);
+            
+        
+
+        circle_marker_d70641203a9470ad00d86cc8aec76719.bindPopup(popup_87d619d7aef7878b5d9c3e9b1be1839a)
+        ;
+
+        
+    
+    
+            var circle_marker_3cd695df57847aca0428fd9f1651383f = L.circleMarker(
+                [56.54963, -2.66871],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_eaef275026399e5e9f14dfb9adcc4b95 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_9ac6dc8f38971250f4539e2e9a5e843a = $(`<div id="html_9ac6dc8f38971250f4539e2e9a5e843a" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 02/08/2024</div>`)[0];
+                popup_eaef275026399e5e9f14dfb9adcc4b95.setContent(html_9ac6dc8f38971250f4539e2e9a5e843a);
+            
+        
+
+        circle_marker_3cd695df57847aca0428fd9f1651383f.bindPopup(popup_eaef275026399e5e9f14dfb9adcc4b95)
+        ;
+
+        
+    
+    
+            var circle_marker_36f772ad4a19bc8817b9e2c3568e328a = L.circleMarker(
+                [56.67948, -2.98511],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_9842a89c7a83bb58be64a9987eec3157 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_93988b1a535ba983c1f4c34b85091504 = $(`<div id="html_93988b1a535ba983c1f4c34b85091504" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 29/08/2024</div>`)[0];
+                popup_9842a89c7a83bb58be64a9987eec3157.setContent(html_93988b1a535ba983c1f4c34b85091504);
+            
+        
+
+        circle_marker_36f772ad4a19bc8817b9e2c3568e328a.bindPopup(popup_9842a89c7a83bb58be64a9987eec3157)
+        ;
+
+        
+    
+    
+            var circle_marker_55064fb88cc6942a198b6bb2fc64951f = L.circleMarker(
+                [56.72838, -2.6512],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_fffcb6552d7ef6ce92613e2e837cd1df = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ceac09b06bc24f5d5012d057061e99ee = $(`<div id="html_ceac09b06bc24f5d5012d057061e99ee" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 09/10/2024</div>`)[0];
+                popup_fffcb6552d7ef6ce92613e2e837cd1df.setContent(html_ceac09b06bc24f5d5012d057061e99ee);
+            
+        
+
+        circle_marker_55064fb88cc6942a198b6bb2fc64951f.bindPopup(popup_fffcb6552d7ef6ce92613e2e837cd1df)
+        ;
+
+        
+    
+    
+            var circle_marker_07bddfe533210a39996ebce39ab2edc4 = L.circleMarker(
+                [56.68246, -2.79793],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_97e9721f10fcfedc26292aef4181b1f0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ebe4e7964863b1c5c309cb0441081da0 = $(`<div id="html_ebe4e7964863b1c5c309cb0441081da0" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining + wind<br>Date: 09/02/2024</div>`)[0];
+                popup_97e9721f10fcfedc26292aef4181b1f0.setContent(html_ebe4e7964863b1c5c309cb0441081da0);
+            
+        
+
+        circle_marker_07bddfe533210a39996ebce39ab2edc4.bindPopup(popup_97e9721f10fcfedc26292aef4181b1f0)
+        ;
+
+        
+    
+    
+            var circle_marker_7dc9c22ae24284d1c518b7ede9c6f3c1 = L.circleMarker(
+                [56.71552, -2.88787],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e71f406ecf043a3801ecebe6ef6df6c3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_093f87c621ec9d5c4ced446c7e3403ac = $(`<div id="html_093f87c621ec9d5c4ced446c7e3403ac" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 28/07/2024</div>`)[0];
+                popup_e71f406ecf043a3801ecebe6ef6df6c3.setContent(html_093f87c621ec9d5c4ced446c7e3403ac);
+            
+        
+
+        circle_marker_7dc9c22ae24284d1c518b7ede9c6f3c1.bindPopup(popup_e71f406ecf043a3801ecebe6ef6df6c3)
+        ;
+
+        
+    
+    
+            var circle_marker_9c5fd0e7dd4ea30b4c9084f5ea7af17f = L.circleMarker(
+                [56.67471, -3.00532],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_1d8e122ef484127f0138d1915ab4eb75 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_30029cc014005831665abedeb27bdfe9 = $(`<div id="html_30029cc014005831665abedeb27bdfe9" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 29/11/2024</div>`)[0];
+                popup_1d8e122ef484127f0138d1915ab4eb75.setContent(html_30029cc014005831665abedeb27bdfe9);
+            
+        
+
+        circle_marker_9c5fd0e7dd4ea30b4c9084f5ea7af17f.bindPopup(popup_1d8e122ef484127f0138d1915ab4eb75)
+        ;
+
+        
+    
+    
+            var circle_marker_3a4848f950d4fa069429cac4d13bdd92 = L.circleMarker(
+                [56.72195, -2.57851],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_c4d3dbf912ea07eff60de4dbc9181440 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ae04963b2de8e6ebcc91b62df75fb9e0 = $(`<div id="html_ae04963b2de8e6ebcc91b62df75fb9e0" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 18/08/2024</div>`)[0];
+                popup_c4d3dbf912ea07eff60de4dbc9181440.setContent(html_ae04963b2de8e6ebcc91b62df75fb9e0);
+            
+        
+
+        circle_marker_3a4848f950d4fa069429cac4d13bdd92.bindPopup(popup_c4d3dbf912ea07eff60de4dbc9181440)
+        ;
+
+        
+    
+    
+            var circle_marker_098ec91c1e9e707126f453c80d5ec2ef = L.circleMarker(
+                [56.50178, -3.11151],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_a60e2ecf2057fdd6d0e49a61ad66b71d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d4c21f59c38f4c6f9186e6a8610f4d05 = $(`<div id="html_d4c21f59c38f4c6f9186e6a8610f4d05" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 01/12/2024</div>`)[0];
+                popup_a60e2ecf2057fdd6d0e49a61ad66b71d.setContent(html_d4c21f59c38f4c6f9186e6a8610f4d05);
+            
+        
+
+        circle_marker_098ec91c1e9e707126f453c80d5ec2ef.bindPopup(popup_a60e2ecf2057fdd6d0e49a61ad66b71d)
+        ;
+
+        
+    
+    
+            var circle_marker_0ff1adc51ab4f82f3d5a93e42c49d389 = L.circleMarker(
+                [56.68834, -2.78226],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_618755022509e71ca2e91a2c19486580 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b1d16e374ad9f75007f1134e3543e8c4 = $(`<div id="html_b1d16e374ad9f75007f1134e3543e8c4" style="width: 100.0%; height: 100.0%;">Severity: Fatal<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 17/09/2024</div>`)[0];
+                popup_618755022509e71ca2e91a2c19486580.setContent(html_b1d16e374ad9f75007f1134e3543e8c4);
+            
+        
+
+        circle_marker_0ff1adc51ab4f82f3d5a93e42c49d389.bindPopup(popup_618755022509e71ca2e91a2c19486580)
+        ;
+
+        
+    
+    
+            var circle_marker_38d343e6f622e597b1944b179706620c = L.circleMarker(
+                [56.73337, -2.65632],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_f0dfb07b9be6a08efd051ea15b26277d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_de099c158fe101f0949ffa95dca51ee6 = $(`<div id="html_de099c158fe101f0949ffa95dca51ee6" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 03/05/2024</div>`)[0];
+                popup_f0dfb07b9be6a08efd051ea15b26277d.setContent(html_de099c158fe101f0949ffa95dca51ee6);
+            
+        
+
+        circle_marker_38d343e6f622e597b1944b179706620c.bindPopup(popup_f0dfb07b9be6a08efd051ea15b26277d)
+        ;
+
+        
+    
+    
+            var circle_marker_4afa4c516907014c50ef3fcc18d64e5a = L.circleMarker(
+                [56.57942, -2.64561],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_6235c78e4f85d5ca3d1edba64e8859bc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ffd3df3c9f6bc4ceba222635c8e59b0a = $(`<div id="html_ffd3df3c9f6bc4ceba222635c8e59b0a" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 28/10/2024</div>`)[0];
+                popup_6235c78e4f85d5ca3d1edba64e8859bc.setContent(html_ffd3df3c9f6bc4ceba222635c8e59b0a);
+            
+        
+
+        circle_marker_4afa4c516907014c50ef3fcc18d64e5a.bindPopup(popup_6235c78e4f85d5ca3d1edba64e8859bc)
+        ;
+
+        
+    
+    
+            var circle_marker_deab0b9e1c792ce55ad51160b861779a = L.circleMarker(
+                [56.56046, -2.6135],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_f749eec9d3b0bdb2146e98174cec00d7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_018bd61daeb3de22da02b12e4c746c9f = $(`<div id="html_018bd61daeb3de22da02b12e4c746c9f" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 13/09/2024</div>`)[0];
+                popup_f749eec9d3b0bdb2146e98174cec00d7.setContent(html_018bd61daeb3de22da02b12e4c746c9f);
+            
+        
+
+        circle_marker_deab0b9e1c792ce55ad51160b861779a.bindPopup(popup_f749eec9d3b0bdb2146e98174cec00d7)
+        ;
+
+        
+    
+    
+            var circle_marker_a3ee71a1b95b7978d06816f19b1d4d68 = L.circleMarker(
+                [56.64224, -2.74721],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_44de9f9fad4858fee57260ebb663994a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1f171449453475fa4a416ca71e9cc133 = $(`<div id="html_1f171449453475fa4a416ca71e9cc133" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 24/12/2024</div>`)[0];
+                popup_44de9f9fad4858fee57260ebb663994a.setContent(html_1f171449453475fa4a416ca71e9cc133);
+            
+        
+
+        circle_marker_a3ee71a1b95b7978d06816f19b1d4d68.bindPopup(popup_44de9f9fad4858fee57260ebb663994a)
+        ;
+
+        
+    
+    
+            var circle_marker_4d93bdcaeb8d0c01cb2f481e3e36e571 = L.circleMarker(
+                [56.77876, -2.59901],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_dea77f52165d6a4728318b243ee3619f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0818566bcbb074a32cc920d95b3301e4 = $(`<div id="html_0818566bcbb074a32cc920d95b3301e4" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 02/05/2024</div>`)[0];
+                popup_dea77f52165d6a4728318b243ee3619f.setContent(html_0818566bcbb074a32cc920d95b3301e4);
+            
+        
+
+        circle_marker_4d93bdcaeb8d0c01cb2f481e3e36e571.bindPopup(popup_dea77f52165d6a4728318b243ee3619f)
+        ;
+
+        
+    
+    
+            var circle_marker_c03e055a1970f7b2ee7fa3d398488c1b = L.circleMarker(
+                [56.72409, -2.64917],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_f56b860dba7ba46fc5b9246357923060 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c41fe819fb1ef3e495d33b65a1daa2af = $(`<div id="html_c41fe819fb1ef3e495d33b65a1daa2af" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 03/03/2024</div>`)[0];
+                popup_f56b860dba7ba46fc5b9246357923060.setContent(html_c41fe819fb1ef3e495d33b65a1daa2af);
+            
+        
+
+        circle_marker_c03e055a1970f7b2ee7fa3d398488c1b.bindPopup(popup_f56b860dba7ba46fc5b9246357923060)
+        ;
+
+        
+    
+    
+            var circle_marker_641461688dcc1dbf8663aa8d6d0d4df7 = L.circleMarker(
+                [56.57931, -2.80772],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_2c239bcba50048aa17e4191777f604f2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5f20f6a634a333abebcd89b5da7516ae = $(`<div id="html_5f20f6a634a333abebcd89b5da7516ae" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 07/10/2024</div>`)[0];
+                popup_2c239bcba50048aa17e4191777f604f2.setContent(html_5f20f6a634a333abebcd89b5da7516ae);
+            
+        
+
+        circle_marker_641461688dcc1dbf8663aa8d6d0d4df7.bindPopup(popup_2c239bcba50048aa17e4191777f604f2)
+        ;
+
+        
+    
+    
+            var circle_marker_b11f2e67ebe7fbf36d2fa728b2729e80 = L.circleMarker(
+                [56.64278, -2.88619],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_5f27911c890363b0f88604807c97b4ba = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_0758c6ba6043810d281b595796be6a9d = $(`<div id="html_0758c6ba6043810d281b595796be6a9d" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 24/01/2024</div>`)[0];
+                popup_5f27911c890363b0f88604807c97b4ba.setContent(html_0758c6ba6043810d281b595796be6a9d);
+            
+        
+
+        circle_marker_b11f2e67ebe7fbf36d2fa728b2729e80.bindPopup(popup_5f27911c890363b0f88604807c97b4ba)
+        ;
+
+        
+    
+    
+            var circle_marker_c9694d4d97ae66fb55073c40b6b00312 = L.circleMarker(
+                [56.57732, -2.7799],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_b314da628481f5ecc758a0f0f48f193a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_72744d8bffa18713de98c45908c44ba8 = $(`<div id="html_72744d8bffa18713de98c45908c44ba8" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 22/05/2024</div>`)[0];
+                popup_b314da628481f5ecc758a0f0f48f193a.setContent(html_72744d8bffa18713de98c45908c44ba8);
+            
+        
+
+        circle_marker_c9694d4d97ae66fb55073c40b6b00312.bindPopup(popup_b314da628481f5ecc758a0f0f48f193a)
+        ;
+
+        
+    
+    
+            var circle_marker_b13413922fa72a687c3cb8cb7f2dbd7c = L.circleMarker(
+                [56.62638, -2.91617],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_0e4c0591ebd3b10c9882bfa199985c80 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_37ad536868331a63e67e03a6b9d49ef8 = $(`<div id="html_37ad536868331a63e67e03a6b9d49ef8" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 28/11/2024</div>`)[0];
+                popup_0e4c0591ebd3b10c9882bfa199985c80.setContent(html_37ad536868331a63e67e03a6b9d49ef8);
+            
+        
+
+        circle_marker_b13413922fa72a687c3cb8cb7f2dbd7c.bindPopup(popup_0e4c0591ebd3b10c9882bfa199985c80)
+        ;
+
+        
+    
+    
+            var circle_marker_7e8554fba18acec72b9f4de7b8dc9a76 = L.circleMarker(
+                [56.72804, -2.64111],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_86bf47ebc1eac693d8730cd8a05442d4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_1154a8cc405cdab28597c13fa9d296c7 = $(`<div id="html_1154a8cc405cdab28597c13fa9d296c7" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 15/09/2024</div>`)[0];
+                popup_86bf47ebc1eac693d8730cd8a05442d4.setContent(html_1154a8cc405cdab28597c13fa9d296c7);
+            
+        
+
+        circle_marker_7e8554fba18acec72b9f4de7b8dc9a76.bindPopup(popup_86bf47ebc1eac693d8730cd8a05442d4)
+        ;
+
+        
+    
+    
+            var circle_marker_be8a76824fce1e70115be748b6c6b7bb = L.circleMarker(
+                [56.52827, -2.94451],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_5018d4d67289f74196df61b2dfa80b81 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_aed0bef66ab90844fa5f2dde77e59b36 = $(`<div id="html_aed0bef66ab90844fa5f2dde77e59b36" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 07/02/2024</div>`)[0];
+                popup_5018d4d67289f74196df61b2dfa80b81.setContent(html_aed0bef66ab90844fa5f2dde77e59b36);
+            
+        
+
+        circle_marker_be8a76824fce1e70115be748b6c6b7bb.bindPopup(popup_5018d4d67289f74196df61b2dfa80b81)
+        ;
+
+        
+    
+    
+            var circle_marker_1ca6f4d727968841281cf2c8039b4448 = L.circleMarker(
+                [56.56556, -2.58069],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_b070cee6e04f20397e4fa2e5fe202369 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_737b9e599dcc6b6cef23b456321ce6ee = $(`<div id="html_737b9e599dcc6b6cef23b456321ce6ee" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 18/12/2024</div>`)[0];
+                popup_b070cee6e04f20397e4fa2e5fe202369.setContent(html_737b9e599dcc6b6cef23b456321ce6ee);
+            
+        
+
+        circle_marker_1ca6f4d727968841281cf2c8039b4448.bindPopup(popup_b070cee6e04f20397e4fa2e5fe202369)
+        ;
+
+        
+    
+    
+            var circle_marker_23ee54172572596ad1c94fd29c9a1ac0 = L.circleMarker(
+                [56.52919, -2.9444],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_dd3515ba6b54f009408ab5b83c89a41f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_217b3c78b1f3c4202b28119e0a3c52b9 = $(`<div id="html_217b3c78b1f3c4202b28119e0a3c52b9" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 20/12/2024</div>`)[0];
+                popup_dd3515ba6b54f009408ab5b83c89a41f.setContent(html_217b3c78b1f3c4202b28119e0a3c52b9);
+            
+        
+
+        circle_marker_23ee54172572596ad1c94fd29c9a1ac0.bindPopup(popup_dd3515ba6b54f009408ab5b83c89a41f)
+        ;
+
+        
+    
+    
+            var circle_marker_3f5a155da3f1e5c6688b92dc94d86711 = L.circleMarker(
+                [56.5123, -2.94536],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e08301f67b58a788e43af8094a4b1367 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b4ba5f3d8b134652f074ebeb59a046b6 = $(`<div id="html_b4ba5f3d8b134652f074ebeb59a046b6" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 21/04/2024</div>`)[0];
+                popup_e08301f67b58a788e43af8094a4b1367.setContent(html_b4ba5f3d8b134652f074ebeb59a046b6);
+            
+        
+
+        circle_marker_3f5a155da3f1e5c6688b92dc94d86711.bindPopup(popup_e08301f67b58a788e43af8094a4b1367)
+        ;
+
+        
+    
+    
+            var circle_marker_a26f63d8e81b7760cc901ff7b43666c6 = L.circleMarker(
+                [56.50419, -2.89334],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_9960e983dcada3ee01e22c0bda9addad = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cb89e52eb259fb43628d6d8e4afd6fb7 = $(`<div id="html_cb89e52eb259fb43628d6d8e4afd6fb7" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Other<br>Date: 05/01/2024</div>`)[0];
+                popup_9960e983dcada3ee01e22c0bda9addad.setContent(html_cb89e52eb259fb43628d6d8e4afd6fb7);
+            
+        
+
+        circle_marker_a26f63d8e81b7760cc901ff7b43666c6.bindPopup(popup_9960e983dcada3ee01e22c0bda9addad)
+        ;
+
+        
+    
+    
+            var circle_marker_00c26b0432ad412120073105120edf91 = L.circleMarker(
+                [56.73113, -2.65738],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e9d0b66529ec50757a49f2cf86fc7384 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4b0d05e1b872f5934f31a040a5e8713a = $(`<div id="html_4b0d05e1b872f5934f31a040a5e8713a" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 07/12/2024</div>`)[0];
+                popup_e9d0b66529ec50757a49f2cf86fc7384.setContent(html_4b0d05e1b872f5934f31a040a5e8713a);
+            
+        
+
+        circle_marker_00c26b0432ad412120073105120edf91.bindPopup(popup_e9d0b66529ec50757a49f2cf86fc7384)
+        ;
+
+        
+    
+    
+            var circle_marker_b39c6b6d21e8e81aa559073a54a1b2d0 = L.circleMarker(
+                [56.55841, -2.58141],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_327fd82d08b2eef442741cf664e9d3a2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6499372178106ef665ef506ad47ff45e = $(`<div id="html_6499372178106ef665ef506ad47ff45e" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 07/09/2024</div>`)[0];
+                popup_327fd82d08b2eef442741cf664e9d3a2.setContent(html_6499372178106ef665ef506ad47ff45e);
+            
+        
+
+        circle_marker_b39c6b6d21e8e81aa559073a54a1b2d0.bindPopup(popup_327fd82d08b2eef442741cf664e9d3a2)
+        ;
+
+        
+    
+    
+            var circle_marker_e8ad7728269ad66ca73ebe6dd0f518b1 = L.circleMarker(
+                [56.65185, -2.93422],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_7f4e74936fea16dee41c0dfcbfd883b8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b37c1b5da01c151d6f3e91b94ec68049 = $(`<div id="html_b37c1b5da01c151d6f3e91b94ec68049" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 08/01/2024</div>`)[0];
+                popup_7f4e74936fea16dee41c0dfcbfd883b8.setContent(html_b37c1b5da01c151d6f3e91b94ec68049);
+            
+        
+
+        circle_marker_e8ad7728269ad66ca73ebe6dd0f518b1.bindPopup(popup_7f4e74936fea16dee41c0dfcbfd883b8)
+        ;
+
+        
+    
+    
+            var circle_marker_d5e3c679c0f8c4e54661c28f8b7d6c97 = L.circleMarker(
+                [56.56103, -2.58051],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e302d929dd2cf5a9b601302a961639b1 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_328e038a602a4d1769aa541e5b6e031a = $(`<div id="html_328e038a602a4d1769aa541e5b6e031a" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 12/02/2024</div>`)[0];
+                popup_e302d929dd2cf5a9b601302a961639b1.setContent(html_328e038a602a4d1769aa541e5b6e031a);
+            
+        
+
+        circle_marker_d5e3c679c0f8c4e54661c28f8b7d6c97.bindPopup(popup_e302d929dd2cf5a9b601302a961639b1)
+        ;
+
+        
+    
+    
+            var circle_marker_c5eea8b9241874f8f5c1e5798f5fbcd5 = L.circleMarker(
+                [56.62694, -2.91708],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_fb68594f369f4de2f8537108d9d0d093 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8e76fa3bc192a53605ae5ba336ad2bb4 = $(`<div id="html_8e76fa3bc192a53605ae5ba336ad2bb4" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 17/01/2024</div>`)[0];
+                popup_fb68594f369f4de2f8537108d9d0d093.setContent(html_8e76fa3bc192a53605ae5ba336ad2bb4);
+            
+        
+
+        circle_marker_c5eea8b9241874f8f5c1e5798f5fbcd5.bindPopup(popup_fb68594f369f4de2f8537108d9d0d093)
+        ;
+
+        
+    
+    
+            var circle_marker_193cdb3d10147b05bb5c660979030493 = L.circleMarker(
+                [56.72164, -2.61091],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_844ada878218d0ff880bae368dc18197 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ebc5f731848a426f857a09d57d55ebb2 = $(`<div id="html_ebc5f731848a426f857a09d57d55ebb2" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 10/07/2024</div>`)[0];
+                popup_844ada878218d0ff880bae368dc18197.setContent(html_ebc5f731848a426f857a09d57d55ebb2);
+            
+        
+
+        circle_marker_193cdb3d10147b05bb5c660979030493.bindPopup(popup_844ada878218d0ff880bae368dc18197)
+        ;
+
+        
+    
+    
+            var circle_marker_f743e9cd575b3351162fdf7071ad6b8b = L.circleMarker(
+                [56.66883, -2.653],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_8bd52a103517cea4b43ddfc5bfd399c8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_65f7c32135ce6e5341e50b7619ec2527 = $(`<div id="html_65f7c32135ce6e5341e50b7619ec2527" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 03/10/2024</div>`)[0];
+                popup_8bd52a103517cea4b43ddfc5bfd399c8.setContent(html_65f7c32135ce6e5341e50b7619ec2527);
+            
+        
+
+        circle_marker_f743e9cd575b3351162fdf7071ad6b8b.bindPopup(popup_8bd52a103517cea4b43ddfc5bfd399c8)
+        ;
+
+        
+    
+    
+            var circle_marker_fa903712154a2b49e6e347b34bd3dad3 = L.circleMarker(
+                [56.54831, -2.93963],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_5039201743f7cb6cb26ec35f62c7b1fb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b5763a9181c0fdfd9c181da812906c96 = $(`<div id="html_b5763a9181c0fdfd9c181da812906c96" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 27/08/2024</div>`)[0];
+                popup_5039201743f7cb6cb26ec35f62c7b1fb.setContent(html_b5763a9181c0fdfd9c181da812906c96);
+            
+        
+
+        circle_marker_fa903712154a2b49e6e347b34bd3dad3.bindPopup(popup_5039201743f7cb6cb26ec35f62c7b1fb)
+        ;
+
+        
+    
+    
+            var circle_marker_92e885682c6b6458a2238dbe7fc08808 = L.circleMarker(
+                [56.65365, -2.91859],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e01ab36683d7fcd7e4c8fb1b60362041 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d71a8833791e404b4db3fba50a32e9b6 = $(`<div id="html_d71a8833791e404b4db3fba50a32e9b6" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 06/12/2024</div>`)[0];
+                popup_e01ab36683d7fcd7e4c8fb1b60362041.setContent(html_d71a8833791e404b4db3fba50a32e9b6);
+            
+        
+
+        circle_marker_92e885682c6b6458a2238dbe7fc08808.bindPopup(popup_e01ab36683d7fcd7e4c8fb1b60362041)
+        ;
+
+        
+    
+    
+            var circle_marker_11881dae2985ffa03b39701587ac929a = L.circleMarker(
+                [56.73004, -2.67392],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_144793d2322148c5917a24de892efb66 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_81bdf5668af9bc9c490520247a7878fc = $(`<div id="html_81bdf5668af9bc9c490520247a7878fc" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 08/11/2024</div>`)[0];
+                popup_144793d2322148c5917a24de892efb66.setContent(html_81bdf5668af9bc9c490520247a7878fc);
+            
+        
+
+        circle_marker_11881dae2985ffa03b39701587ac929a.bindPopup(popup_144793d2322148c5917a24de892efb66)
+        ;
+
+        
+    
+    
+            var circle_marker_e8bb51a339a3e629c3d9ab621e9f5bbc = L.circleMarker(
+                [56.73414, -2.65985],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_b68ebbe151a35bccb009792a84e72bee = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c492be05fb982d8c73facad376c38b58 = $(`<div id="html_c492be05fb982d8c73facad376c38b58" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 31/12/2024</div>`)[0];
+                popup_b68ebbe151a35bccb009792a84e72bee.setContent(html_c492be05fb982d8c73facad376c38b58);
+            
+        
+
+        circle_marker_e8bb51a339a3e629c3d9ab621e9f5bbc.bindPopup(popup_b68ebbe151a35bccb009792a84e72bee)
+        ;
+
+        
+    
+    
+            var circle_marker_1828504aed991d8cda9c0a87d791e5b7 = L.circleMarker(
+                [56.72592, -2.62972],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_a58f7da5886f84b284f61304c87f83c8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_13827eb31fb2653ac6b49baa0bff9381 = $(`<div id="html_13827eb31fb2653ac6b49baa0bff9381" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 16/02/2024</div>`)[0];
+                popup_a58f7da5886f84b284f61304c87f83c8.setContent(html_13827eb31fb2653ac6b49baa0bff9381);
+            
+        
+
+        circle_marker_1828504aed991d8cda9c0a87d791e5b7.bindPopup(popup_a58f7da5886f84b284f61304c87f83c8)
+        ;
+
+        
+    
+    
+            var circle_marker_65e9bf2a44626e20f2c39d55e3a56443 = L.circleMarker(
+                [56.52926, -2.94444],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_dfaab4bd020a84b6837c59cafd3b656f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2da3b02f7a3ab0076c2d567190f60c20 = $(`<div id="html_2da3b02f7a3ab0076c2d567190f60c20" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 27/07/2024</div>`)[0];
+                popup_dfaab4bd020a84b6837c59cafd3b656f.setContent(html_2da3b02f7a3ab0076c2d567190f60c20);
+            
+        
+
+        circle_marker_65e9bf2a44626e20f2c39d55e3a56443.bindPopup(popup_dfaab4bd020a84b6837c59cafd3b656f)
+        ;
+
+        
+    
+    
+            var circle_marker_893ede41e005446e11a69aed19d8190b = L.circleMarker(
+                [56.57347, -3.1189],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_6ee5f405ba16c43baa316c8df6c5179e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8bcaff1ef5eb8f6ad8b463443908b020 = $(`<div id="html_8bcaff1ef5eb8f6ad8b463443908b020" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 16/12/2024</div>`)[0];
+                popup_6ee5f405ba16c43baa316c8df6c5179e.setContent(html_8bcaff1ef5eb8f6ad8b463443908b020);
+            
+        
+
+        circle_marker_893ede41e005446e11a69aed19d8190b.bindPopup(popup_6ee5f405ba16c43baa316c8df6c5179e)
+        ;
+
+        
+    
+    
+            var circle_marker_76e7e94b9bbc803895d91ff877c51098 = L.circleMarker(
+                [56.63978, -2.53548],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_7231e5756dba15582ba64cf88cb2d44a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_bd6ec36267dc2e1cd43bf6ca9051ea70 = $(`<div id="html_bd6ec36267dc2e1cd43bf6ca9051ea70" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 02/07/2024</div>`)[0];
+                popup_7231e5756dba15582ba64cf88cb2d44a.setContent(html_bd6ec36267dc2e1cd43bf6ca9051ea70);
+            
+        
+
+        circle_marker_76e7e94b9bbc803895d91ff877c51098.bindPopup(popup_7231e5756dba15582ba64cf88cb2d44a)
+        ;
+
+        
+    
+    
+            var circle_marker_9925a039a696096bbc7be52a2d7bf2ce = L.circleMarker(
+                [56.58271, -2.66652],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_ed1cc63702f2de1b0477c9ea5c319951 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_460888cc07503d8cd4b4d48708aa6069 = $(`<div id="html_460888cc07503d8cd4b4d48708aa6069" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 05/03/2024</div>`)[0];
+                popup_ed1cc63702f2de1b0477c9ea5c319951.setContent(html_460888cc07503d8cd4b4d48708aa6069);
+            
+        
+
+        circle_marker_9925a039a696096bbc7be52a2d7bf2ce.bindPopup(popup_ed1cc63702f2de1b0477c9ea5c319951)
+        ;
+
+        
+    
+    
+            var circle_marker_5895e71c52be8b3dfcd7c3e977d1982c = L.circleMarker(
+                [56.57534, -2.72819],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_10a1732d61670a4e01f1ba71eff54b91 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_ee942d4dd55e3aa81f19d6b5f8959322 = $(`<div id="html_ee942d4dd55e3aa81f19d6b5f8959322" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 02/11/2024</div>`)[0];
+                popup_10a1732d61670a4e01f1ba71eff54b91.setContent(html_ee942d4dd55e3aa81f19d6b5f8959322);
+            
+        
+
+        circle_marker_5895e71c52be8b3dfcd7c3e977d1982c.bindPopup(popup_10a1732d61670a4e01f1ba71eff54b91)
+        ;
+
+        
+    
+    
+            var circle_marker_92b250735b6a4ceee65f8f6a84e034c0 = L.circleMarker(
+                [56.54254, -2.63845],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_957ffbc6116e7c9c394f261e992f6edb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3d59c2bb86536208e39909a779d9d293 = $(`<div id="html_3d59c2bb86536208e39909a779d9d293" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Dual carriageway<br>Weather: Raining no wind<br>Date: 15/08/2024</div>`)[0];
+                popup_957ffbc6116e7c9c394f261e992f6edb.setContent(html_3d59c2bb86536208e39909a779d9d293);
+            
+        
+
+        circle_marker_92b250735b6a4ceee65f8f6a84e034c0.bindPopup(popup_957ffbc6116e7c9c394f261e992f6edb)
+        ;
+
+        
+    
+    
+            var circle_marker_27654b4e701bb2adba9612f9ffbd3ea9 = L.circleMarker(
+                [56.562, -2.58607],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_5566433a0d196953a5ce7cc30a52d3b4 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_6d0138406494bdcdbb028133e99861da = $(`<div id="html_6d0138406494bdcdbb028133e99861da" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 02/12/2024</div>`)[0];
+                popup_5566433a0d196953a5ce7cc30a52d3b4.setContent(html_6d0138406494bdcdbb028133e99861da);
+            
+        
+
+        circle_marker_27654b4e701bb2adba9612f9ffbd3ea9.bindPopup(popup_5566433a0d196953a5ce7cc30a52d3b4)
+        ;
+
+        
+    
+    
+            var circle_marker_69c277d29a66a7f33ce4cb29a39dd4c1 = L.circleMarker(
+                [56.55101, -3.13611],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_40e88fce2e2b34bb60191e3874de3370 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8768ce36954078b3d21adbc7addd941d = $(`<div id="html_8768ce36954078b3d21adbc7addd941d" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 11/07/2024</div>`)[0];
+                popup_40e88fce2e2b34bb60191e3874de3370.setContent(html_8768ce36954078b3d21adbc7addd941d);
+            
+        
+
+        circle_marker_69c277d29a66a7f33ce4cb29a39dd4c1.bindPopup(popup_40e88fce2e2b34bb60191e3874de3370)
+        ;
+
+        
+    
+    
+            var circle_marker_ac65defabe468d922b1cfc0ab6f43819 = L.circleMarker(
+                [56.72715, -2.46415],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_75a8e0fa27343f3ecf4a8c08a5d04d75 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2765ba44c3469598a9153474c8a5d2a6 = $(`<div id="html_2765ba44c3469598a9153474c8a5d2a6" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 02/11/2024</div>`)[0];
+                popup_75a8e0fa27343f3ecf4a8c08a5d04d75.setContent(html_2765ba44c3469598a9153474c8a5d2a6);
+            
+        
+
+        circle_marker_ac65defabe468d922b1cfc0ab6f43819.bindPopup(popup_75a8e0fa27343f3ecf4a8c08a5d04d75)
+        ;
+
+        
+    
+    
+            var circle_marker_d9a51816bf33f671af3c71358b55cb10 = L.circleMarker(
+                [56.72562, -2.50564],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_c57814458dd909a3dc50a56501e05853 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b71a3d416dcdc58f5f2f84ce769014c8 = $(`<div id="html_b71a3d416dcdc58f5f2f84ce769014c8" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 20/07/2024</div>`)[0];
+                popup_c57814458dd909a3dc50a56501e05853.setContent(html_b71a3d416dcdc58f5f2f84ce769014c8);
+            
+        
+
+        circle_marker_d9a51816bf33f671af3c71358b55cb10.bindPopup(popup_c57814458dd909a3dc50a56501e05853)
+        ;
+
+        
+    
+    
+            var circle_marker_d57bf6303c7dbf0f3f4c83f1c89fe1fb = L.circleMarker(
+                [56.67081, -3.00352],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_dc712ef31701205aee4984360d8d7c95 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fff56414a48af8584f84a299e81b2993 = $(`<div id="html_fff56414a48af8584f84a299e81b2993" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 20/09/2024</div>`)[0];
+                popup_dc712ef31701205aee4984360d8d7c95.setContent(html_fff56414a48af8584f84a299e81b2993);
+            
+        
+
+        circle_marker_d57bf6303c7dbf0f3f4c83f1c89fe1fb.bindPopup(popup_dc712ef31701205aee4984360d8d7c95)
+        ;
+
+        
+    
+    
+            var circle_marker_b858ad8dbae1d2743bda87d728853da1 = L.circleMarker(
+                [56.66778, -3.00441],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_44bcb5a67dcc778117aca129a7eff823 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d8e824cac1d89bbbca67c150b274b560 = $(`<div id="html_d8e824cac1d89bbbca67c150b274b560" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 05/05/2024</div>`)[0];
+                popup_44bcb5a67dcc778117aca129a7eff823.setContent(html_d8e824cac1d89bbbca67c150b274b560);
+            
+        
+
+        circle_marker_b858ad8dbae1d2743bda87d728853da1.bindPopup(popup_44bcb5a67dcc778117aca129a7eff823)
+        ;
+
+        
+    
+    
+            var circle_marker_0f08057bcccca74bb17f13f8d2fb12f9 = L.circleMarker(
+                [56.68741, -2.93726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_6750c5ce308c95f536faa1576cee1cf9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_acc7eab1e2a57bc87878e3e1fe0f5009 = $(`<div id="html_acc7eab1e2a57bc87878e3e1fe0f5009" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 04/08/2024</div>`)[0];
+                popup_6750c5ce308c95f536faa1576cee1cf9.setContent(html_acc7eab1e2a57bc87878e3e1fe0f5009);
+            
+        
+
+        circle_marker_0f08057bcccca74bb17f13f8d2fb12f9.bindPopup(popup_6750c5ce308c95f536faa1576cee1cf9)
+        ;
+
+        
+    
+    
+            var circle_marker_9dc99abf297cfef27b4830557d8b3171 = L.circleMarker(
+                [56.73027, -2.66813],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_363973588dc37ca9d146ab909a9dfd24 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2239b0f6cecddcb793a6d972f648b19c = $(`<div id="html_2239b0f6cecddcb793a6d972f648b19c" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 10/05/2024</div>`)[0];
+                popup_363973588dc37ca9d146ab909a9dfd24.setContent(html_2239b0f6cecddcb793a6d972f648b19c);
+            
+        
+
+        circle_marker_9dc99abf297cfef27b4830557d8b3171.bindPopup(popup_363973588dc37ca9d146ab909a9dfd24)
+        ;
+
+        
+    
+    
+            var circle_marker_951d064c1f066b7917a2c963a176d19c = L.circleMarker(
+                [56.61401, -3.01129],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_d4a5a4e2efb7e1e4cc089fe08bcf4599 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_feaedf07184cae527f98ab7e8d3bd23c = $(`<div id="html_feaedf07184cae527f98ab7e8d3bd23c" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 26/05/2024</div>`)[0];
+                popup_d4a5a4e2efb7e1e4cc089fe08bcf4599.setContent(html_feaedf07184cae527f98ab7e8d3bd23c);
+            
+        
+
+        circle_marker_951d064c1f066b7917a2c963a176d19c.bindPopup(popup_d4a5a4e2efb7e1e4cc089fe08bcf4599)
+        ;
+
+        
+    
+    
+            var circle_marker_3a34db47d756a4ca573143cbef9e04dd = L.circleMarker(
+                [56.47766, -2.84287],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_057588a1710dc13b19bafdc1ec1c66e7 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_f12bb7f0bb752504e44ef71e9c430394 = $(`<div id="html_f12bb7f0bb752504e44ef71e9c430394" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 04/12/2024</div>`)[0];
+                popup_057588a1710dc13b19bafdc1ec1c66e7.setContent(html_f12bb7f0bb752504e44ef71e9c430394);
+            
+        
+
+        circle_marker_3a34db47d756a4ca573143cbef9e04dd.bindPopup(popup_057588a1710dc13b19bafdc1ec1c66e7)
+        ;
+
+        
+    
+    
+            var circle_marker_d03127e143279337bb026a0b14b75c90 = L.circleMarker(
+                [56.73663, -2.7005],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_92342e75207efaa80f73ca34aaad324b = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4285ee1aea5ad260676bd953ebdf7579 = $(`<div id="html_4285ee1aea5ad260676bd953ebdf7579" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 05/06/2024</div>`)[0];
+                popup_92342e75207efaa80f73ca34aaad324b.setContent(html_4285ee1aea5ad260676bd953ebdf7579);
+            
+        
+
+        circle_marker_d03127e143279337bb026a0b14b75c90.bindPopup(popup_92342e75207efaa80f73ca34aaad324b)
+        ;
+
+        
+    
+    
+            var circle_marker_937cab08efe62528e4622fc414794b50 = L.circleMarker(
+                [56.60447, -2.90393],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_6b5195c48291e0b419d7ede3d394b920 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4c4dbe1f2e2a5bded850454086f1497c = $(`<div id="html_4c4dbe1f2e2a5bded850454086f1497c" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Slip road<br>Weather: Fine no wind<br>Date: 27/07/2024</div>`)[0];
+                popup_6b5195c48291e0b419d7ede3d394b920.setContent(html_4c4dbe1f2e2a5bded850454086f1497c);
+            
+        
+
+        circle_marker_937cab08efe62528e4622fc414794b50.bindPopup(popup_6b5195c48291e0b419d7ede3d394b920)
+        ;
+
+        
+    
+    
+            var circle_marker_41c469f127429c6407d6fc75dee28cc6 = L.circleMarker(
+                [56.63568, -2.67469],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_e3ac395cecc3a6a80fa6f9544f342b19 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_a9e91d419f1bed5fe45bff990894cbc2 = $(`<div id="html_a9e91d419f1bed5fe45bff990894cbc2" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 26/10/2024</div>`)[0];
+                popup_e3ac395cecc3a6a80fa6f9544f342b19.setContent(html_a9e91d419f1bed5fe45bff990894cbc2);
+            
+        
+
+        circle_marker_41c469f127429c6407d6fc75dee28cc6.bindPopup(popup_e3ac395cecc3a6a80fa6f9544f342b19)
+        ;
+
+        
+    
+    
+            var circle_marker_552876197bb61d1b45fd96bd47139470 = L.circleMarker(
+                [56.48181, -2.81401],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_67a266ba8662dcc4c781d89a59d11feb = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fb6a869dd42a0847566bd0c7bd5895f3 = $(`<div id="html_fb6a869dd42a0847566bd0c7bd5895f3" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Other<br>Date: 21/06/2024</div>`)[0];
+                popup_67a266ba8662dcc4c781d89a59d11feb.setContent(html_fb6a869dd42a0847566bd0c7bd5895f3);
+            
+        
+
+        circle_marker_552876197bb61d1b45fd96bd47139470.bindPopup(popup_67a266ba8662dcc4c781d89a59d11feb)
+        ;
+
+        
+    
+    
+            var circle_marker_d38ee4897140850dca8da7929f882827 = L.circleMarker(
+                [56.62798, -2.91851],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_811d8237c380596e6f32cd169ee5a58c = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c436720a12c463e0609fc624d61193f8 = $(`<div id="html_c436720a12c463e0609fc624d61193f8" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Dual carriageway<br>Weather: Fine no wind<br>Date: 15/01/2024</div>`)[0];
+                popup_811d8237c380596e6f32cd169ee5a58c.setContent(html_c436720a12c463e0609fc624d61193f8);
+            
+        
+
+        circle_marker_d38ee4897140850dca8da7929f882827.bindPopup(popup_811d8237c380596e6f32cd169ee5a58c)
+        ;
+
+        
+    
+    
+            var circle_marker_3e6c732587553875215e9e2257caa8a7 = L.circleMarker(
+                [56.65678, -2.75709],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_7ace3172a6bab4c0e50ef584e30d1fa3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b3e904e642ade4fc2ec02659feae43c5 = $(`<div id="html_b3e904e642ade4fc2ec02659feae43c5" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Raining no wind<br>Date: 24/12/2024</div>`)[0];
+                popup_7ace3172a6bab4c0e50ef584e30d1fa3.setContent(html_b3e904e642ade4fc2ec02659feae43c5);
+            
+        
+
+        circle_marker_3e6c732587553875215e9e2257caa8a7.bindPopup(popup_7ace3172a6bab4c0e50ef584e30d1fa3)
+        ;
+
+        
+    
+    
+            var circle_marker_6f394fc1a23e2f653f94ce6a36f576f1 = L.circleMarker(
+                [56.7067, -2.46582],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_8bbb899daa724c5f82411e222cab890a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_23923e45df273e3de7ce713724982170 = $(`<div id="html_23923e45df273e3de7ce713724982170" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 31/10/2024</div>`)[0];
+                popup_8bbb899daa724c5f82411e222cab890a.setContent(html_23923e45df273e3de7ce713724982170);
+            
+        
+
+        circle_marker_6f394fc1a23e2f653f94ce6a36f576f1.bindPopup(popup_8bbb899daa724c5f82411e222cab890a)
+        ;
+
+        
+    
+    
+            var circle_marker_f60e258c28d5f12611497fff87fb9362 = L.circleMarker(
+                [56.76937, -2.61554],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_bd30e6b51c5e7047eda6e99d6356c6cc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3c339589cddb141526876baf958ee82c = $(`<div id="html_3c339589cddb141526876baf958ee82c" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 25/09/2024</div>`)[0];
+                popup_bd30e6b51c5e7047eda6e99d6356c6cc.setContent(html_3c339589cddb141526876baf958ee82c);
+            
+        
+
+        circle_marker_f60e258c28d5f12611497fff87fb9362.bindPopup(popup_bd30e6b51c5e7047eda6e99d6356c6cc)
+        ;
+
+        
+    
+    
+            var circle_marker_4cf24d114e1c35b78e9824c19e606a63 = L.circleMarker(
+                [56.55902, -2.59346],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_675a1a75518068edec4409243f9120b2 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b154e413984afafdd129654dc03b12d3 = $(`<div id="html_b154e413984afafdd129654dc03b12d3" style="width: 100.0%; height: 100.0%;">Severity: Serious<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 22/06/2024</div>`)[0];
+                popup_675a1a75518068edec4409243f9120b2.setContent(html_b154e413984afafdd129654dc03b12d3);
+            
+        
+
+        circle_marker_4cf24d114e1c35b78e9824c19e606a63.bindPopup(popup_675a1a75518068edec4409243f9120b2)
+        ;
+
+        
+    
+    
+            var circle_marker_1fa4d33d0fceadd8469ec6fd325b992e = L.circleMarker(
+                [56.50449, -2.81253],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_b09d40390a528cdb2c13d79fefc21093);
+        
+    
+        var popup_8e78a2aa478b4b6a3ee10e4df428e508 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_d99ed354517c17008de2c66c2a155c6b = $(`<div id="html_d99ed354517c17008de2c66c2a155c6b" style="width: 100.0%; height: 100.0%;">Severity: Slight<br>Road type: Single carriageway<br>Weather: Fine no wind<br>Date: 09/11/2024</div>`)[0];
+                popup_8e78a2aa478b4b6a3ee10e4df428e508.setContent(html_d99ed354517c17008de2c66c2a155c6b);
+            
+        
+
+        circle_marker_1fa4d33d0fceadd8469ec6fd325b992e.bindPopup(popup_8e78a2aa478b4b6a3ee10e4df428e508)
+        ;
+
+        
+    
+</script>
+</html>
